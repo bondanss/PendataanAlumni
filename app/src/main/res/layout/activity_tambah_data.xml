@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".TambahData">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtNim"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="NIM"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Nama"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Tanggal Lahir"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtTempat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Tempat Lahir"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Alamat"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtAgama"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Agama"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtTlp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Telepon"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtThnMasuk"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Tahun Masuk"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtThnLulus"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Tahun Lulus"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtPekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Pekerjaan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edtJabatan"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Jabatan"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/actionSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Simpan" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
